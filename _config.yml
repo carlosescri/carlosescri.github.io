@@ -56,6 +56,7 @@ description: >- # this means to ignore newlines until next option
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "https://carlosescribano.com"
+permalink: /:year/:title/  # pretty
 
 twitter_username: carlosescri
 github_username:  carlosescri
