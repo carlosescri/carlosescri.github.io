@@ -1,0 +1,91 @@
+#
+# Build Settings
+#
+
+encoding: UTF-8
+timezone: Europe/Madrid
+
+# https://help.github.com/articles/repository-metadata-on-github-pages/
+# github: [metadata]
+
+markdown: kramdown
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+gfm_quirks: paragraph_end
+
+# https://help.github.com/articles/configuring-jekyll-plugins/#default-plugins
+plugins:
+  - jemoji                # https://github.com/jekyll/jemoji
+  - jekyll-avatar         # https://github.com/benbalter/jekyll-avatar
+  - jekyll-feed           # https://github.com/jekyll/jekyll-feed
+  - jekyll-gist           # https://github.com/jekyll/jekyll-gist
+  # - jekyll-include-cache  # https://github.com/benbalter/jekyll-include-cache
+  - jekyll-mentions       # https://github.com/jekyll/jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from  # https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-seo-tag        # https://jekyll.github.io/jekyll-seo-tag
+  # This should be the last one!!!
+  - jekyll-sitemap        # https://github.com/jekyll/jekyll-sitemap
+theme: minima
+
+future: false # gh: true
+paginate: 10
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+#
+# Site settings
+#
+title: Vida y milagros de un desarrollador web
+# email: your-email@example.com
+description: >- # this means to ignore newlines until next option
+  carlosescribano.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://carlosescribano.com"
+permalink: /:year/:title/  # pretty
+
+twitter_username: carlosescri
+github_username:  carlosescri
+disqus_shortname: carlosescribano
+google_analytics_id: "UA-25610373-1"
+
+# social_sharing:
+#   - icon:       twitter
+#     title:      Compartir en twitter
+#     share_url:  "//twitter.com/share"
+#     share_text: text
+#     share_link: url
+#   - icon:       facebook
+#     title:      Compartir en Facebook
+#     share_url:  "//www.facebook.com/sharer/sharer.php"
+#     share_text: t
+#     share_link: u
+#   - icon:       google-plus
+#     title:      Compartir en Google+
+#     share_url:  "//plus.google.com/share"
+#     share_text:
+#     share_link: "url"
+
+# extra_pages:
+#   - url:   /about/
+#     title: Sobre mi
+#   - url:   https://nettoys.es
+#     title: Blog de Desarrollo
+#     alt:   Artículos de programación en español
+#   - url:   http://photo.carlosescribano.com/
+#     title: Fotografías
+#     alt:   Algunas instantáneas de mis viajes por el universo
